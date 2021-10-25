@@ -1,0 +1,8 @@
+/*
+When targeting the main selector for the component, use :host, and not the component name (here, app-root)
+*/
+:host {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
